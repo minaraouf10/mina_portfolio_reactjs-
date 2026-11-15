@@ -1,0 +1,50 @@
+.contact {
+  padding-block: 100px;
+}
+
+.contact__panel {
+  padding: 40px 28px;
+  border-radius: 28px;
+  border: 1px solid var(--line-strong);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent),
+    var(--bg-elevated);
+  text-align: center;
+}
+
+.contact__lead {
+  margin: -16px auto 0;
+  color: var(--muted);
+  font-size: 16px;
+  max-width: 540px;
+}
+
+.contact__email {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 28px auto;
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--accent);
+  font-size: clamp(18px, 3.4vw, 28px);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.contact__email:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.contact__copy-icon {
+  color: var(--muted);
+  font-size: 16px;
+}
+
+@media (min-width: 800px) {
+  .contact__panel {
+    padding: 56px 48px;
+  }
+}

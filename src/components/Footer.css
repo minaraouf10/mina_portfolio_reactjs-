@@ -1,0 +1,20 @@
+.footer {
+  padding: 36px 24px 48px;
+  background: var(--footer-bg);
+  border-top: 1px solid var(--line);
+  text-align: center;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.footer__copy {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 500;
+}
